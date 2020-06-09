@@ -6,11 +6,11 @@ spring:
 spring:
     profiles: dev       # 开发环境
     application:
-        name: microservicecloud-config-noodles-dev
+        name: spring-cloud-config-noodles-dev
 ---
 spring:
     profiles: test      # 测试环境
     application:
-        name: microservicecloud-config-noodles-test
+        name: spring-cloud-config-noodles-test
 
 # 文件保存为 UTF-8 格式
